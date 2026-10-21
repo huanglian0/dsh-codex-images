@@ -1,0 +1,3 @@
+- insert:
+    - id: gpt-codex-images
+      name: dsh-plugin-gpt-codex-images
