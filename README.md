@@ -20,7 +20,7 @@
 
 如果你需要无限画布、批量创作、多模型工作台或独立图库管理，可以参考覆盖这些流程的 [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) 和 [dsh-imagegen](https://github.com/dickpy/dsh-imagegen)，按自己的创作方式选择。
 
-需要使用现有 xAI 登录出图时，可选择同系列的 [DSH Grok Images](https://github.com/huanglian0/dsh-grok-images)。
+需要使用现有 xAI 登录出图时，可选择同系列的 [DSH Grok Images](https://github.com/lalala-git/dsh-grok-images)。
 
 ## 接入方式
 
@@ -62,7 +62,7 @@ GitHub 项目名为 DSH Codex Images；安装用的包名仍为 `dsh-plugin-gpt-
 先获取本项目源码：在仓库页面选择 Code → Download ZIP 并解压到固定目录，或执行：
 
 ```powershell
-git clone https://github.com/huanglian0/dsh-codex-images.git
+git clone https://github.com/lalala-git/dsh-codex-images.git
 ```
 
 安装时选择包含 package.json、src 和 cordis.patch.yml 的插件目录。下面的本地路径均是占位示例，按你的保存位置替换。
