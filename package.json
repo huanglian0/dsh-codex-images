@@ -1,0 +1,19 @@
+{
+  "name": "dsh-plugin-gpt-codex-images",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "GPT Image through the Codex image protocol and native ChatGPT OAuth; no API-key or chat-route fallback.",
+  "keywords": ["deepseek-harness", "dsh-plugin", "codex", "openai", "image"],
+  "files": ["src", "cordis.patch.yml", "README.md", "LICENSE"],
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js", "./client": "./src/client.js", "./package.json": "./package.json" },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "inject": ["@deepseek-ai/dsh-client-runtime", "@deepseek-ai/dsh-client-ui-conversation", "@deepseek-ai/dsh-client-ui-attachment"],
+      "platform": "web"
+    }
+  },
+  "engines": { "node": ">=22", "dsh": ">=0.2.1-rc.2" }
+}
