@@ -2,6 +2,8 @@
 
 作者：lalala.gpt
 
+AI 协作：[OpenAI Codex](https://openai.com/codex/)（代码审阅、文档整理与开源发布）。
+
 复用 DSH 已有的 ChatGPT / Codex 登录，在对话里完成单张图片生成和编辑。
 
 这是 DSH Native Images 系列中的 GPT 图片插件：把图片能力作为独立工具接入 DeepSeek Harness，不新增聊天模型，也不需要另外填写 API Key。你可以继续使用自己的对话流程，在明确需要图片时调用它。
